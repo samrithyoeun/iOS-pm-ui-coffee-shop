@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		530465AE20E5F39800AD1D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530465AD20E5F39800AD1D73 /* AppDelegate.swift */; };
-		530465B020E5F39800AD1D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530465AF20E5F39800AD1D73 /* ViewController.swift */; };
+		530465B020E5F39800AD1D73 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530465AF20E5F39800AD1D73 /* HomeVC.swift */; };
 		530465B320E5F39800AD1D73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530465B120E5F39800AD1D73 /* Main.storyboard */; };
 		530465B520E5F39900AD1D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530465B420E5F39900AD1D73 /* Assets.xcassets */; };
 		530465B820E5F39900AD1D73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530465B620E5F39900AD1D73 /* LaunchScreen.storyboard */; };
+		530465C020E6197000AD1D73 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530465BF20E6197000AD1D73 /* LoginVC.swift */; };
+		530465C220E6199900AD1D73 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530465C120E6199900AD1D73 /* SignUpVC.swift */; };
+		530465C420E619CE00AD1D73 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530465C320E619CE00AD1D73 /* MenuVC.swift */; };
+		530465C620E619DF00AD1D73 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530465C520E619DF00AD1D73 /* DetailVC.swift */; };
+		530465C920E61B1200AD1D73 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530465C820E61B1200AD1D73 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		530465AA20E5F39800AD1D73 /* coffee shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coffee shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		530465AD20E5F39800AD1D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		530465AF20E5F39800AD1D73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		530465AF20E5F39800AD1D73 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		530465B220E5F39800AD1D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		530465B420E5F39900AD1D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		530465B720E5F39900AD1D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		530465B920E5F39900AD1D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530465BF20E6197000AD1D73 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		530465C120E6199900AD1D73 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		530465C320E619CE00AD1D73 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		530465C520E619DF00AD1D73 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		530465C820E61B1200AD1D73 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,26 @@
 			isa = PBXGroup;
 			children = (
 				530465AD20E5F39800AD1D73 /* AppDelegate.swift */,
-				530465AF20E5F39800AD1D73 /* ViewController.swift */,
+				530465C720E61AFB00AD1D73 /* Controller */,
 				530465B120E5F39800AD1D73 /* Main.storyboard */,
 				530465B420E5F39900AD1D73 /* Assets.xcassets */,
 				530465B620E5F39900AD1D73 /* LaunchScreen.storyboard */,
 				530465B920E5F39900AD1D73 /* Info.plist */,
+				530465C820E61B1200AD1D73 /* Extension.swift */,
 			);
 			path = "coffee shop";
+			sourceTree = "<group>";
+		};
+		530465C720E61AFB00AD1D73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				530465AF20E5F39800AD1D73 /* HomeVC.swift */,
+				530465BF20E6197000AD1D73 /* LoginVC.swift */,
+				530465C120E6199900AD1D73 /* SignUpVC.swift */,
+				530465C320E619CE00AD1D73 /* MenuVC.swift */,
+				530465C520E619DF00AD1D73 /* DetailVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530465B020E5F39800AD1D73 /* ViewController.swift in Sources */,
+				530465B020E5F39800AD1D73 /* HomeVC.swift in Sources */,
 				530465AE20E5F39800AD1D73 /* AppDelegate.swift in Sources */,
+				530465C920E61B1200AD1D73 /* Extension.swift in Sources */,
+				530465C220E6199900AD1D73 /* SignUpVC.swift in Sources */,
+				530465C020E6197000AD1D73 /* LoginVC.swift in Sources */,
+				530465C420E619CE00AD1D73 /* MenuVC.swift in Sources */,
+				530465C620E619DF00AD1D73 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
